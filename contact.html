@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="homeMainDiv">
+            <div class="home_div">
+                <li><img src="BCCI.png" id="home_logo" class="home_head"></li>
+                <li>
+                    <h3 id="home_headings" class="home_head">BCCI</h3>
+                </li>
+            </div>
+        </div>
+    </header>
+    <div class="navDiv">
+        <li><a href="Index.html" id="anc">HOME</a></li>
+        <li><a href="about.html" id="anc">ABOUT</a></li>
+        <li><a href="history.html" id="anc">HISTORY</a></li>
+        <li><a href="players.php" id="anc">PLAYERS</a></li>
+        <li><a href="leagues.php" id="anc">LEAGUES</a></li>
+        <li><a href="wc.html" id="anc">W CUPS</a></li>
+    </div>
+
+    <div class="contact_div">
+        <form action="back_end.php" method="post">
+            <label for="name">Name:-</label>
+            <br>
+            <input id="form_input" type="text" name="Name" placeholder="Enter your name" required>
+            <br>
+            <label for="mobile">Mobile no:-</label>
+            <br>
+            <input id="form_input" type="tel" name="Mobile" placeholder="your mobile no." required>
+            <br>
+            <label for="email">Email id:-</label>
+            <br>
+            <input id="form_input" type="email" name="Email" placeholder="email address" required>
+            <br>
+            <label for="feedback">Give your feedback</label>
+            <br>
+            <textarea cols="50" rows="10" name="feedback" placeholder="Enter your feedback" required>Very Nice...!</textarea>
+            <br>
+            <input type="reset" id="back_endBtn">
+            <input type="submit" id="back_endBtn">
+        </form>
+    </div>
+    <div align="center" id="contact_division">
+        <h1 id="contact_heading"><b>---:Thank You:---</b></h1>
+        <h3 id="contact_heading"><b>---:Keep Visiting:---</b></h3>
+    </div>
+
+    <footer class="footerDivMain">
+        <div class="footerDiv">
+            <div class="footerDiv1">
+                <h4 id="homeh4">CONTACT US</h4>
+                <p>
+                    <center style="color: rgb(150, 142, 142);" id="homeCenter">4th Floor, Cricket Centre <br>
+                        Wankhede Stadium <br>
+                        ‘D’ Road, Churchgate <br>
+                        Mumbai- 400020 <br>
+                        India. <br>
+                        E-mail: office@bcci.tv</center>
+                </p>
+            </div>
+            <div class="footerDiv2">
+                <center>
+                    <div class="footerDiv2Child1">
+                        <h4 id="homeh4">MATCHES</h4>
+                        <p>
+                            <center><a href="https://www.bcci.tv/domestic/fixtures" id="footeranc">Domestic</a></center>
+                        </p>
+                        <p>
+                            <center><a href="https://www.bcci.tv/international/fixtures"
+                                    id="footeranc">International</a>
+                            </center>
+                        </p>
+                    </div>
+                    <div class="footerDiv2Child2">
+                        <h4 id="homeh4">PLAYERS</h4>
+                        <p>
+                            <center><a href="players.html" id="footeranc">Men</a></center>
+                        </p>
+                        <p>
+                            <center><a href="women.html" id="footeranc">Women</a></center>
+                        </p>
+                    </div>
+                </center>
+            </div>
+            <div class="footerDiv3">
+                <h4 id="homeh4">VIDEOS</h4>
+                <p>
+                    <center><a href="https://www.bcci.tv/videos/Latest" id="footeranc">Latest</a></center>
+                </p>
+                <p>
+                    <center><a href="https://www.bcci.tv/videos/highlights" id="footeranc">Highlights</a></center>
+                </p>
+                <p>
+                    <center><a href="https://www.bcci.tv/videos/features-and-interviews" id="footeranc">Features and
+                            Interviews</a></center>
+                </p>
+                <p>
+                    <center><a href="https://www.bcci.tv/videos/press-conference" id="footeranc">Press Conferences</a>
+                    </center>
+                </p>
+            </div>
+            <div class="footerDiv4">
+                <h4 id="homeh4">NEWS</h4>
+                <p>
+                    <center><a href="https://www.bcci.tv/articles" id="footeranc">Latest</a></center>
+                </p>
+                <p>
+                    <center><a href="https://www.bcci.tv/news/bcci-news" id="footeranc">BCCI News</a></center>
+                </p>
+            </div>
+            <div class="footerDiv5">
+                <h4 id="homeh4">MORE</h4>
+                <p>
+                    <center><a href="https://www.iplt20.com/" id="footeranc">IPL</a></center>
+                </p>
+                <p>
+                    <center><a href="https://www.bcci.tv/venues" id="footeranc">Vanue</a></center>
+                </p>
+            </div>
+        </div>
+        <footer class="homefooter">
+            <div>
+                <span>T +91 22 - 2289 8800
+
+                    F 022 - 2289 8801</span>
+            </div>
+            <div>
+                <span>Copyrights BCCI 2021 , All Rights Reserved.</span>
+            </div>
+            <div>
+                <span><a href="https://www.bcci.tv/about/terms-of-use" id="tc">Terms and Conditions</a></span>
+            </div>
+            <div>
+                <span><a href="https://www.bcci.tv/about/privacy-policy" id="tc">Privacy Policy</a></span>
+            </div>
+            <div><span>
+                    <address>Created by: Ankur Dwivedi</address>
+                </span></div>
+        </footer>
+    </footer>
+
+    <style>
+        #back_endBtn{
+            background-color: aquamarine;
+            cursor: pointer;
+            border-radius: 13%;
+            border: 1px solid black;
+            padding: 5px;           
+        }
+        #back_endBtn:hover{
+            background-color: aliceblue;
+            box-shadow: 5px 10px 18px aquamarine;
+            transition: .5s;
+        }
+    </style>
+
+</body>
+
+</html>
